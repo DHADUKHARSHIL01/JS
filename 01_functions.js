@@ -33,3 +33,27 @@ function calculatprice(...price) {
 }
 
 console.log(calculatprice(150, 235, 268, 189));
+
+const user = {
+  username: "Harshil",
+  age: 20,
+};
+
+function handleObject(anyobject) {
+  console.log(
+    `Hello My Name is ${user.username} and I am ${user.age} year old`
+  );
+}
+
+handleObject({
+  username: "Harshil Dhaduk",
+  age: 20,
+});
+
+const myArray = [234, 422, 64, 125];
+
+function getvalueArray(getArray) {
+  return getArray[3];
+}
+
+console.log(getvalueArray(myArray));
