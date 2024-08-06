@@ -11,17 +11,26 @@ const mydetails = {
 };
 
 console.log(mydetails["full name"]);
+
 console.log(mydetails.age);
+
 console.log(mydetails[mySym]);
 
 console.log(mydetails);
 
-
-mydetails.email= "emailchange@mail.com"
-
+mydetails.email = "emailchange@mail.com";
+console.log(mydetails.email);
 
 mydetails.gretting = function () {
-    console.log("Hello Harshil");   
-}
+  console.log("Hello Harshil");
+};
 
 console.log(mydetails.gretting());
+
+mydetails.Details = function () {
+  console.log(
+    `Hello My Name is ${this["full name"]} and I am ${this.age} year old`
+  );
+};
+
+console.log(mydetails.Details());
