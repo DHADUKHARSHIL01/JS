@@ -14,9 +14,12 @@ console.log(mycreatedDate.toLocaleString());
 
 let timeStamp = Date.now();
 console.log(timeStamp);
+
 console.log(mycreatedDate.getTime());
 
 let myNewDate = new Date();
 console.log(myNewDate.getDate());
+
 console.log(myNewDate.getDay());
+
 console.log(myNewDate.getMonth() + 1);
