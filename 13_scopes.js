@@ -45,5 +45,4 @@ console.log(Add);
 const Addnum1 = function (num) {
   return num + 2;
 };
-
 console.log(Addnum1(65));
