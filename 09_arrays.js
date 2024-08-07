@@ -1,4 +1,5 @@
 const marvel_Heroes = ["Thor", "Hulk", "Black Panther"];
+
 const dc_Heroes = ["Flash", "Batman", "Superman"];
 
 const all_Heroes = marvel_Heroes.concat(dc_Heroes);
@@ -17,4 +18,5 @@ console.log(Array.from("HarshilDhaduk"));
 let s1 = 100;
 let s2 = 200;
 let s3 = 300;
+
 console.log(Array.of(s1, s2, s3));
