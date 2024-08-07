@@ -32,5 +32,4 @@ mydetails.Details = function () {
     `Hello My Name is ${this["full name"]} and I am ${this.age} year old`
   );
 };
-
 console.log(mydetails.Details());
