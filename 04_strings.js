@@ -14,12 +14,8 @@ console.log(fullname.charAt(8));
 let Name = fullname.substring(0, 4);
 console.log(Name);
 
-let newstr = new String('   Harshil   ')
+let newstr = new String("   Harshil   ");
 console.log(newstr.trim());
 
-let newstr1 = new String('   Harshil   Dhaduk   ')
+let newstr1 = new String("   Harshil   Dhaduk   ");
 console.log(newstr1.trim());
-
-
-
-
