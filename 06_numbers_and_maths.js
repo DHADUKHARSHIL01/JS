@@ -7,7 +7,7 @@ console.log(Num1);
 console.log(Num1.toString().length);
 console.log(Num1.toFixed(3));
 
-// *********** Maths ***********
+// ************* Maths *************
 
 console.log(Math);
 
