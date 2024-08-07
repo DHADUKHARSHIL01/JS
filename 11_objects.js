@@ -37,7 +37,6 @@ course = {
   duration: "3 Months",
   price: "999",
 };
-
 const { courseid: js } = course;
 
 console.log(js);
