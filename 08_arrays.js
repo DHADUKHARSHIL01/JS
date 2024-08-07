@@ -6,7 +6,9 @@ console.log(myarr);
 console.log(myarr.includes(56)); //if value in arr ==true else false
 
 //console.log(myarr.unshift(60));
+
 //myarr.shift()
+
 //console.log(myarr);
 
 const newarr = myarr.join();
