@@ -55,5 +55,4 @@ const myArray = [234, 422, 64, 125];
 function getvalueArray(getArray) {
   return getArray[3];
 }
-
 console.log(getvalueArray(myArray));
