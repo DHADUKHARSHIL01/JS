@@ -40,6 +40,13 @@ const book = [
     publish: 1999,
     edition: 2010,
   },
+
+  {
+    bookName: "Anna Karenina",
+    authorName: "Leo Tolstoy",
+    publish: 1999,
+    edition: 2010,
+  },
 ];
 
 let userBook = book.filter((bk) => bk.authorName === "Gabriel García Márquez");
