@@ -1,3 +1,5 @@
+//******** For of ********
+
 const myarr = [10, 15, 55, 63, 89];
 
 for (const number of myarr) {
@@ -9,7 +11,7 @@ for (const string of Name) {
   console.log(string);
 }
 
-//****** maps ******
+//******** maps ********
 
 const map = new Map();
 map.set("IN", "INDIA");
@@ -27,6 +29,8 @@ for (const [key, value] of map) {
 //   name1: "Harshil",
 //   name2: "Meet",
 // };
+
+// not Work with object
 
 // for (const [key, value] of obgamej1) {
 //   console.log(key, ":-", value);
