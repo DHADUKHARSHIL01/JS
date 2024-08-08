@@ -29,4 +29,4 @@ const shoppingCart = [
 
 const cartTotal = shoppingCart.reduce((acc, item) => acc + item.price, 0);
 
-console.log(`yoyur Amount ${cartTotal}`);
+console.log(`your Amount ${cartTotal}`);
