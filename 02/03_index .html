@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Table Example</title>
+  </head>
+
+  <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Book Name</th>
+          <th>Author Name</th>
+          <th>Publish Year</th>
+          <th>Edition Year</th>
+          <th>Edition Year</th>
+        </tr>
+      </thead>
+      <tbody id="bookTableBody"></tbody>
+    </table>
+
+    <script>
+      let book = [
+        {
+          id: 1,
+          bookName: "Pride and Prejudice",
+          authorName: "Jane Austen",
+          publish: 1990,
+          edition: 2000,
+        },
+
+        {
+          id: 2,
+          bookName: "1984",
+          authorName: " George Orwell",
+          publish: 1980,
+          edition: 1995,
+        },
+
+        {
+          id: 3,
+          bookName: "Crime and Punishment",
+          authorName: "Fyodor Dostoevsky",
+          publish: 1995,
+          edition: 2002,
+        },
+
+        {
+          id: 4,
+          bookName: "Hamlet",
+          authorName: "William Shakespeare",
+          publish: 2000,
+          edition: 2005,
+        },
+
+        {
+          id: 5,
+          bookName: "One Hundred Years of Solitude",
+          authorName: "Gabriel García Márquez",
+          publish: 1998,
+          edition: 2008,
+        },
+
+        {
+          id: 6,
+          bookName: "Anna Karenina",
+          authorName: "Leo Tolstoy",
+          publish: 1999,
+          edition: 2010,
+        },
+
+        {
+          id: 7,
+          bookName: "Anna Karenina",
+          authorName: "Leo Tolstoy",
+          publish: 1999,
+          edition: 2010,
+        },
+
+        {
+          id: 7,
+          bookName: "Anna Karenina",
+          authorName: "Leo Tolstoy",
+          publish: 1999,
+          edition: 2010,
+        },
+
+        {
+          id: 7,
+          bookName: "Anna Karenina",
+          authorName: "Leo Tolstoy",
+          publish: 1999,
+          edition: 2010,
+        },
+
+        {
+          id: 7,
+          bookName: "Anna Karenina",
+          authorName: "Leo Tolstoy",
+          publish: 1999,
+          edition: 2010,
+        },
+
+        {
+          id: 7,
+          bookName: "Anna Karenina",
+          authorName: "Leo Tolstoy",
+          publish: 1999,
+          edition: 2010,
+        },
+      ];
+
+      const tbody = document.getElementById("bookTableBody");
+
+      book.forEach((item) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+
+      <td>${item.id}</td>
+      <td>${item.bookName}</td>
+      <td>${item.authorName}</td>
+      <td>${item.publish}</td>
+      <td>${item.edition}</td>
+      </tr>
+      `;
+        tbody.appendChild(row);
+      });
+    </script>
+  </body>
+</html>
