@@ -15,7 +15,7 @@ getPromise(1)
     return getPromise(2);
   })
   .then((res) => {
-    console.log(rec);
+    console.log(res);
   });
 
 let promise = getPromise();
