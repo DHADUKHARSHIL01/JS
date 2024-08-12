@@ -1,4 +1,4 @@
-const URL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita`;
+const URL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a`;
 
 const apidiv = document.getElementById("apicall");
 
@@ -12,7 +12,7 @@ const getcoktil = async () => {
     .map(
       (data) => `
       
-     <div class="card col-xl-6 " style="width: 18rem;">
+     <div class="card col-xl-6 m-5 " style="width: 18rem;">
     <img class="card-img-top" src="${data.strDrinkThumb}" alt="">
     <div class="card-body ">${data.idDrink}
     <h5 class="card-title">${data.strDrink}</h5>
