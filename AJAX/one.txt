@@ -1,0 +1,3 @@
+XMLHttpRequest is an object that is used to send a request to the webserver for exchanging data or transferring and manipulating to it and from the server behind the scenes. You can use the received data to update the data present on the web page without even reloading the page.
+
+Below is the complete syntax to use XMLHttpRequest object.
