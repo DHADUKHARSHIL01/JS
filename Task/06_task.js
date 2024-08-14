@@ -1,5 +1,5 @@
-const x = 10;
-const y = 10;
+const x = 20;
+const y = 15;
 
 if (x > y) {
   console.log("x greater then y");
