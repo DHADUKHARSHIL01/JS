@@ -1,4 +1,4 @@
-const score = 90;
+const score = 99;
 
 if (score >= 93) {
   console.log("your grade is A");
