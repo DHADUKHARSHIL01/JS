@@ -1,4 +1,4 @@
-const temp = 10;
+const temp = 9;
 
 if (temp >= 28) {
   console.log(" temperature is hot");
