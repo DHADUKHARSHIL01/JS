@@ -10,7 +10,6 @@ for (let x = 0; x < num - 1; x++) {
   }
   console.log(newal);
 }
-
 for (let x = 0; x < num; x++) {
   let newal = "";
   for (let y = 0; y <= x; y++) {
