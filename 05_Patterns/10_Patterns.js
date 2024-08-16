@@ -1,23 +1,31 @@
-const num = 5;
+let num = 10;
 
-for (let x = 0; x < num - 1; x++) {
-  let newal = "";
-  for (let y = 0; y <= x; y++) {
-    newal += " ";
+for (let i = 0; i < num; i++) {
+  let newL = "";
+
+  if (i == 0) {
+    for (let j = 0; j < num; j++) {
+      newL += "* ";
+    }
+  } else if (i !== 0 && i !== num) {
+    for (let k = 0; k < 1; k++) {
+      newL += "* ";
+    }
+    for (let l = 0; l < num - 2; l++) {
+      newL += "  ";
+    }
+    for (let m = 0; m < 1; m++) {
+      newL += "* ";
+    }
   }
-  for (let z = 0; z < num - x; z++) {
-    newal += "* ";
-  }
-  console.log(newal);
+
+  console.log(newL);
 }
 
-for (let x = 0; x < num; x++) {
-  let newal = "";
-  for (let y = 0; y < num - x; y++) {
-    newal += " ";
+for (let i = 0; i < 1; i++) {
+  let newL1 = "";
+  for (let n = 0; n < num; n++) {
+    newL1 += "* ";
   }
-  for (let z = 0; z <= x; z++) {
-    newal += "* ";
-  }
-  console.log(newal);
+  console.log(newL1);
 }
