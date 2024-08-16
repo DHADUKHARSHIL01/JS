@@ -1,4 +1,4 @@
-const color = "green";
+const color = "red";
 
 switch (color) {
   case "red":
