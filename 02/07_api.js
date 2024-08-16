@@ -1,7 +1,5 @@
 const URL = `https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a`;
 
-const apidiv = document.getElementById("apicall");
-
 const getcoktil = async () => {
   let response = await fetch(URL);
   let mydata = await response.json();
