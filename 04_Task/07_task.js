@@ -10,6 +10,4 @@ if (score >= 93) {
   console.log("your grade is D");
 } else if (score >= 44) {
   console.log("your grade is E");
-} else if (score >= 33) {
-  console.log("your grade is F");
 }
