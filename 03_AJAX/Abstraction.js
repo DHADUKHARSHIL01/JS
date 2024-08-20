@@ -17,6 +17,15 @@ function Dog(name) {
   };
 }
 
+function Cow(name) {
+  Animal.call(this);
+  this.name = name;
+
+  this.makeSound = function () {
+    console.log(`${this.name} `);
+  };
+}
+
 Dog.prototype = Object.create(Animal.prototype);
 Dog.prototype.constructor = Dog;
 
@@ -24,8 +33,8 @@ let dog = new Dog("jon is");
 dog.makeSound();
 
 try {
-  let animal = new Dog("joj");
-  animal.makeSound();
+  let cow = new Cow("cow is");
+  cow.makeSound();
 } catch (error) {
   console.error(error.message);
 }
