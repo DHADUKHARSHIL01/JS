@@ -8,27 +8,29 @@ function Animal() {
   };
 }
 
-function Dog(name) {
-  Animal.call(this);
-  this.name = name;
+class Dog {
+  constructor(name) {
+    Animal.call(this);
+    this.name = name;
 
-  this.makeSound = function () {
-    console.log(`${this.name} barks`);
-  };
+    this.makeSound = function () {
+      console.log(`${this.name} barks`);
+    };
+  }
 }
 
-function Cow(name) {
-  Animal.call(this);
-  this.name = name;
+class Cow {
+  constructor(name) {
+    Animal.call(this);
+    this.name = name;
 
-  this.makeSound = function () {
-    console.log(`${this.name} `);
-  };
+    this.makeSound = function () {
+      console.log(`${this.name} `);
+    };
+  }
 }
 
 Dog.prototype = Object.create(Animal.prototype);
-Dog.prototype.constructor = Dog;
-
 let dog = new Dog("jon is");
 dog.makeSound();
 
