@@ -26,6 +26,7 @@ const shoppingCart = [
     price: 12999,
   },
 ];
+console.log(shoppingCart.length);
 
 const cartTotal = shoppingCart.reduce((acc, item) => acc + item.price, 0);
 
