@@ -1,4 +1,4 @@
-const num = 5;
+const num = 8;
 
 for (let x = 0; x < num - 1; x++) {
   let newal = "";
